@@ -5,7 +5,8 @@ C++ semi-automatic tool used to demonstrate our knowledge (demolish opponents) i
 The program asks for the language, then automatically recognises the topic, then asks if the guess is correct (could fail sometimes, in which case you can answer "n" and write the right name yourself).
 Then it will search for the local file containing the answers (if exists, solutions come from a random website and most of the time they exist and are accurate) and then will proceed
 to write the answers. There are some topics with 1700+ correct answers if the game nationality is set to US, so the program will automatically spend game coins to gain extra time (45 seconds
-aren't enough even at a rate of 30 words per second). Since the program is based on image processing and text recognition there is no way for it for sending inputs other than directly controlling mouse and keyboard. 
+aren't enough even at a rate of 30 words per second). Since the program is based on image processing and text recognition there is no way for it for sending inputs other than directly controlling mouse and keyboard.
+The two .zip files "answers_ita.zip" and "answers_eng.zip" contain the solutions for the two languages, the program will search for directories named exactly "answers_ita" and "answers_eng", so to use them you'll just need to extract the archives in the root directory of the program.
 
 Important advice based on experience: bluestacks appears to be randomly freezing because of the high rate of keyboard events. Setting the emulator to run in single core drastically reduced the issue on my machine, it could also work for you.
 
